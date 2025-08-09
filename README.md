@@ -1,7 +1,7 @@
 # README.md
 # Sheet Resistance Prediction ML Pipeline
 
-A comprehensive machine learning pipeline for predicting sheet resistance in POCl3 doping process using data from the Seungtae Lee *et al*. [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1369800125004962) [Repository](https://github.com/KU-Seungtae/POCl3_ML). This showcases modern MLOps practices including data versioning, feature stores, experiment tracking, and model explainability.
+A comprehensive machine learning pipeline for predicting sheet resistance in POCl3 doping process using data from Seungtae Lee *et al*. [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1369800125004962) and [Repository](https://github.com/KU-Seungtae/POCl3_ML). This showcases modern MLOps practices including data versioning, feature stores, experiment tracking, and model explainability.
 
 ## Project Overview
 
