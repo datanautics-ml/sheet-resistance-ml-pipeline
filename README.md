@@ -1,3 +1,15 @@
-# POCl3_ML
-Bayesian-optimization-based approach for sheet-resistance control in silicon wafers toward automated solar-cell manufacturing
-Photovoltaic (PV) technology has been continuously evolving with increasing efficiency, and the recent introduction of back contact architectures with ultra-high efficiency cells and the expected shift to tandem applications have led to continuous changes in the optimization of each process in industrial environments. However, conventional trial-and-error approaches to process optimization are time-consuming and cost-intensive, making them impractical for modern manufacturing. As an alternative, this paper proposes a machine-learning-based model for predicting sheet resistance in phosphorus oxychloride (POCl3) doping processes. Among the models evaluated, the gradient boosting model exhibited the highest predictive accuracy, achieving an R2 value of 0.955, root-mean-square error of 9.43 /sq, and mean absolute percentage error of 4.60%. In addition, feature importance analysis and SHapley Additive exPlanations (SHAP) were employed to interpret the model, confirming that the predictions aligned well with the underlying physical mechanisms. This result suggests that data-driven machine-learning models can provide process insights grounded in theoretical and physical principles. Using Bayesian optimization, we were able to quickly obtain a process recipe with an absolute deviation of only 0.1 /sq to 150 /sq, which enabled faster and more accurate optimization when applied. The proposed methodology can facilitate the development of smart factory systems in PV manufacturing and can be extended to broader applications in semiconductor and thin-film processing.
+# README.md
+# Sheet Resistance Prediction ML Pipeline
+
+A comprehensive machine learning pipeline for predicting sheet resistance in POCl3 doping process using data from the Seungtae Lee *et al*. [Paper](https://www.sciencedirect.com/science/article/abs/pii/S1369800125004962) [Repository](https://github.com/KU-Seungtae/POCl3_ML). This showcases modern MLOps practices including data versioning, feature stores, experiment tracking, and model explainability.
+
+## Project Overview
+
+This project demonstrates an end-to-end ML pipeline that:
+- Extracts data from the original data source
+- Implements data quality validation and versioning
+- Uses a feature store for consistent feature management
+- Trains a regression model for sheet resistance prediction
+- Provides model explainability with SHAP
+- Deploys a Streamlit web application for predictions
+- Orchestrates everything with Prefect workflows
